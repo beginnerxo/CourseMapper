@@ -1,0 +1,22 @@
+digraph CourseGraph {
+node [
+
+        shape=box  
+        width=1.2
+        height=1.2
+        fillcolor="pink"
+        fontcolor="Helvetica"
+        fontsize=18
+        style="filled"
+        color="#aaaaaa"
+]  "CLEVER GEE"
+  "CLE"
+  "OTENG"
+  "NERA"
+  "DA"
+  "CLEVER GEE" -> "CLE"
+  "CLE" -> "OTENG"
+  "OTENG" -> "NERA"
+  "NERA" -> "DA"
+}
+
